@@ -85,13 +85,13 @@ function displayErrorMessage(message) {
 
 function getIconForCategory(category) {
   switch (category) {
-    case "electronics":
+    case "Electronics":
       return "📱"; 
-    case "men's clothing":
+    case "Mens":
       return "👔"; 
-    case "women's clothing":
+    case "Womens":
       return "👗";
-    case "jewelery":
+    case "Accessories":
       return "💍"; 
     default:
       return "🛍️"; 
